@@ -1,0 +1,189 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #b1b2f2;
+    transition: color 0.2s ease-in-out;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+
+}
+
+th,
+td {
+    border: 1px solid transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: transparent;
+}
+
+
+h2 {
+    color: #337ab7;
+}
+
+p {
+    color: #666;
+}
+
+.skill-table li {
+    margin-left: 0;
+
+}
+
+
+a:hover {
+    color: paleturquoise;
+    text-decoration: underline;
+}
+
+.background {
+    background-color: #170f1d;
+    position: absolute;
+    height: 200vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.secbg {
+    background-image: url("./lightpurplebg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 10vh;
+    left: 8vw;
+    height: 1500vh;
+    width: 84vw;
+    z-index: 1;
+    border-radius: 40px;
+    opacity: 0.8;
+}
+
+.name {
+    position: absolute;
+    top: 10vh;
+    left: 19vw;
+    font-size: 08vw;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.contact {
+    position: absolute;
+    top: 30vh;
+    left: 25%;
+    right: 25%;
+    font-size: 4vw;
+    font-family: "Lobster", cursive;
+    text-align: center;
+    z-index: 2;
+}
+
+.accordion>input[type="checkbox"] {
+    display: none;
+}
+
+.accordion .content {
+    overflow-y: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+}
+
+.accordion>input[type="checkbox"]:checked~.content {
+    height: auto;
+    overflow: visible;
+    transition: height 0.5s;
+}
+
+
+.accordion label {
+    cursor: pointer;
+    background-color: #582f86;
+    border-radius: 10px;
+    color: white;
+    font-size: 2vw;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    z-index: 2;
+    margin: 0;
+    display: block;
+    margin-left: 12%;
+    margin-right: 11%;
+}
+
+.accordion label:hover,
+.accordion label:focus {
+    background-color: #b1b2f2;
+    color: #582f86;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.accordion {
+    top: 45vh;
+    position: relative;
+    z-index: 2;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    color: white;
+
+    color: #b1b2f2;
+    border-radius: 10px;
+}
+
+.accordion p:last-child {
+    margin-bottom: 0;
+}
